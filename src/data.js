@@ -1,14 +1,14 @@
 export const products = [
     {
         id: 1,
-        img: "https://images.pexels.com/photos/34407/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        link: "https://www.netflix.com/pk/",
+        img: "https://images.pexels.com/photos/10810548/pexels-photo-10810548.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        link: "https://insta-clone-tawny.vercel.app/",
     },
      
     {
         id: 2,
-        img: "",
-        link: "https://www.google.com/",
+        img: "https://images.pexels.com/photos/10810804/pexels-photo-10810804.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        link: "",
     },
 
     {
@@ -29,9 +29,4 @@ export const products = [
         link: "https://www.facebook.com/",
     },
 
-    {
-        id: 6,
-        img: "",
-        link: "https://www.spotify.com/",
-    },
 ]; 
