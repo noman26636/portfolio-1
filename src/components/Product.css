@@ -27,7 +27,8 @@
 .product-image{
     width: 100%;
     height: 100%;
-    transition: all 8s ease;    
+    transition: all 8s ease;   
+    object-fit: contain; 
 }
 
 .product:hover .product-image{

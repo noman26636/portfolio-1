@@ -51,14 +51,18 @@ function Contact() {
                <p className='c-desription'>
                     <b>What's your story ? </b>Get in touch. Always here for you.
                </p>
+               
                <form ref={formRef} onSubmit={handleSubmit}>
-               <input style={{backgroundColor : darkMode && "#333" }} type="text" placeholder='Name' name='user_name' />
-               <input style={{backgroundColor : darkMode && "#333" }} type="text" placeholder='Subject' name='user_subject' />
-               <input style={{backgroundColor : darkMode && "#333" }} type="email" placeholder='Email' name='user_email' />
-               <textarea style={{backgroundColor : darkMode && "#333" }} rows={5} placeholder='Message' name='message' />
+               <input style={{backgroundColor : darkMode && "#333", borderRadius : darkMode && "3px", border : darkMode && "none", outlineColor: darkMode && "#000", color : darkMode && "#FFFFFF"}} type="text" placeholder='Name' name='user_name' />
+               <input style={{backgroundColor : darkMode && "#333", borderRadius : darkMode && "3px", border : darkMode && "none", outlineColor: darkMode && "#000", color : darkMode && "#FFFFFF"}} type="text" placeholder='Subject' name='user_subject' />
+               <input style={{backgroundColor : darkMode && "#333", borderRadius : darkMode && "3px", border : darkMode && "none", outlineColor: darkMode && "#000", color : darkMode && "#FFFFFF"}} type="email" placeholder='Email' name='user_email' />
+               <textarea style={{backgroundColor : darkMode && "#333", borderRadius : darkMode && "3px", border : darkMode && "none", outlineColor: darkMode && "#000", color : darkMode && "#FFFFFF"}} rows={5} placeholder='Message' name='message' />
+               <div className='last_message'>
                <button>Submit</button>
-               {done && " Thank you "}
-
+               <div className='thank'>
+               {done && " Thank you, we will contact you soon "}
+               </div>
+               </div>
                </form>
            </div>
            </div>

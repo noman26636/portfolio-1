@@ -1,32 +1,32 @@
 export const products = [
     {
         id: 1,
-        img: "https://images.pexels.com/photos/10810548/pexels-photo-10810548.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        link: "https://insta-clone-tawny.vercel.app/",
+        img: "https://images.pexels.com/photos/11885785/pexels-photo-11885785.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: "https://insta-clone-1-hazel.vercel.app/",
     },
      
     {
         id: 2,
-        img: "https://images.pexels.com/photos/10810804/pexels-photo-10810804.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        link: "",
+        img: "https://images.pexels.com/photos/11885401/pexels-photo-11885401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        link: "https://metaverse-challenge-neon-three.vercel.app/",
     },
 
     {
         id: 3,
-        img: "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        link: "https://www.instagram.com/",
+        img: "https://images.pexels.com/photos/11885808/pexels-photo-11885808.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: "https://netflix-clone-6bc4d.web.app/",
     },
 
     {
         id: 4,
-        img: "",
-        link: "https://www.whatsapp.com/",
+        img: "https://images.pexels.com/photos/11884979/pexels-photo-11884979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        link: "https://nft-drop-six-indol.vercel.app/nft/noman-apes/",
     },
 
     {
         id: 5,
-        img: "",
-        link: "https://www.facebook.com/",
+        img: "https://images.pexels.com/photos/11885800/pexels-photo-11885800.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: "https://portfolio-project-51694.web.app/",
     },
 
 ]; 

@@ -31,6 +31,7 @@ function Intro() {
           stroke="black"
           className="intro-scroll"
           xmlns="http://www.w3.org/2000/svg"
+      
         >
           <g id="scroll">
             <path
